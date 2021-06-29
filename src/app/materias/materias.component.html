@@ -1,0 +1,31 @@
+<form  autocomplete="off" id="formulario" #noteForm="ngForm" (ngSubmit)="onSubmit(noteForm)">
+    <b>Crear Curso</b>
+    <table style="width:100%">
+        <tr>
+            <td>Nombre
+                <input name="Materia" [ngModel]="curso.Materia" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Nota 1<input name="Nota1" [ngModel]="curso.Nota1" required></td>
+            <td>Porcentaje<input name="Porcentaje1" [ngModel]="curso.Porcentaje1" required></td>
+        </tr>
+        <tr>
+            <td>Nota 2<input name="Nota2" [ngModel]="curso.Nota2" required></td>
+            <td>Porcentaje<input name="Porcentaje2" [ngModel]="curso.Porcentaje2" required></td>
+        </tr>
+        <tr>
+            <td>Nota 3<input name="Nota3" [ngModel]="curso.Nota3" required></td>
+            <td>Porcentaje<input name="Porcentaje3" [ngModel]="curso.Porcentaje3" required></td>
+        </tr>
+        <tr>
+            <td>Nota 4<input name="Nota4" [ngModel]="curso.Nota4" required></td>
+            <td>Porcentaje<input name="Porcentaje4" [ngModel]="curso.Porcentaje4" required></td>
+        </tr>
+        <tr>
+            <td>Nota 5<input name="Nota5" [ngModel]="curso.Nota5" required></td>
+            <td>Porcentaje<input name="Porcentaje5" [ngModel]="curso.Porcentaje5" required></td>
+        </tr>
+    </table>
+    <button mat-raised-button type="actualizar">actualizar</button>
+</form>

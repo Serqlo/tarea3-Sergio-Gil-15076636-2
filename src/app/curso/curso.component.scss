@@ -1,0 +1,28 @@
+#containerBlanco{
+    width: 30em;
+    margin: auto;
+    border: 2px solid;
+    margin-bottom: 1em;
+    list-style-type: none;
+    background-color: white;
+}
+#containerRojo{
+    width: 30em;
+    margin: auto;
+    border: 2px solid;
+    margin-bottom: 1em;
+    list-style-type: none;
+    background-color: rgb(255, 126, 126);
+}
+#containerAmarillo{
+    width: 30em;
+    margin: auto;
+    border: 2px solid;
+    margin-bottom: 1em;
+    list-style-type: none;
+    background-color: rgb(255, 255, 126);
+}
+li {
+    display: inline;
+    margin-right: 4em;
+}

@@ -1,0 +1,32 @@
+#containerBlanco {
+  width: 30em;
+  margin: auto;
+  border: 2px solid;
+  margin-bottom: 1em;
+  list-style-type: none;
+  background-color: white;
+}
+
+#containerRojo {
+  width: 30em;
+  margin: auto;
+  border: 2px solid;
+  margin-bottom: 1em;
+  list-style-type: none;
+  background-color: #ff7e7e;
+}
+
+#containerAmarillo {
+  width: 30em;
+  margin: auto;
+  border: 2px solid;
+  margin-bottom: 1em;
+  list-style-type: none;
+  background-color: #ffff7e;
+}
+
+li {
+  display: inline;
+  margin-right: 4em;
+}
+/*# sourceMappingURL=curso.component.css.map */

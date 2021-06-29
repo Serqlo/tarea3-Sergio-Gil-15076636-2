@@ -1,0 +1,15 @@
+<ul #container id="containerBlanco" *ngIf="PromedioBlancoDisplay">
+    <li>{{materia}}</li>
+    <li>Promedio Hasta ahora:{{promedio}}</li>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">sentiment_very_satisfied</mat-icon>
+</ul>
+<ul #container id="containerRojo" *ngIf="PromedioRojoDisplay">
+    <li>{{materia}}</li>
+    <li>Promedio Hasta ahora:{{promedio}}</li>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">sentiment_very_dissatisfied</mat-icon>
+</ul>
+<ul #container id="containerAmarillo" *ngIf="PromedioAmarilloDisplay">
+    <li>{{materia}}</li>
+    <li>Promedio Hasta ahora:{{promedio}}</li>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">sentiment_very_dissatisfied</mat-icon>
+</ul>
